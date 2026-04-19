@@ -27,10 +27,16 @@ public class Statistics {
         System.out.println();
 
 
+        // set a int variable to store the lowest score
+
+
+
+
 
         int lowest = scores[0];
+        // Created a for loop that cycyles the length of the array
         for (int i = 0; i < arrayLength; i++){
-
+            // set a if statement that
            if   (lowest >  scores[i]){
 
                lowest = scores[i];
