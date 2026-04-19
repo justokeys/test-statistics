@@ -36,22 +36,24 @@ public class Statistics {
         int lowest = scores[0];
         // Created a for loop that cycyles the length of the array
         for (int i = 0; i < arrayLength; i++){
-            // set a if statement that
+            // set an if statement that compares the current array value with a new score in the loop
            if   (lowest >  scores[i]){
-
+            // if the new score is greater the cycle continues until , the (int lowest) value is the lowest
                lowest = scores[i];
 
 
            }
         }
         System.out.println();
+
         System.out.println(lowest + " is the lowest score.");
 
         int highest = scores[0];
+        // this is acually a for each loop  ( score:scores) in psudo code is for each score in the array scores, check if highest is less than score.
         for (int score : scores){
-
+            // compares variable highest with current score in loop
             if (highest < score){
-
+            // if highest is less than current score  , then highest is updated to the new "highest score"
                 highest = score;
             }
         }
