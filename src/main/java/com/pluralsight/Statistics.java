@@ -1,7 +1,9 @@
 package com.pluralsight;
 import java.lang.Math;
+import java.util.Arrays;
 
 import static java.lang.Math.*;
+
 
 public class Statistics {
     public static void main(String[] args) {
@@ -60,7 +62,27 @@ public class Statistics {
         System.out.println();
         System.out.println(highest + " is the highest score.");
 
+        Arrays.sort(scores);
+        System.out.println(Arrays.toString(scores));
+
+
+            int upperMid = scores[4];
+            int lowerMid = scores[5];
+
+            int med = (lowerMid + upperMid) / 2 ;
+
+            System.out.println(med);
+
+
+
+
+
     }
+
+
+
+
+
 
 
 }
